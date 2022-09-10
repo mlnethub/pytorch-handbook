@@ -1,5 +1,5 @@
 # PyTorch 中文手册（pytorch handbook）
-![pytorch](https://raw.githubusercontent.com/pytorch/pytorch/master/docs/source/_static/img/pytorch-logo-dark.png)
+![pytorch](pytorch-logo-dark.png)
 
 ## 书籍介绍
 这是一本开源的书籍，目标是帮助那些希望和使用PyTorch进行深度学习开发和研究的朋友快速入门。
@@ -11,28 +11,34 @@
 ## 版本说明
 由于PyTorch版本更迭，教程的版本会与PyTorch版本，保持一致。
 
-2019.10.10 PyTorch已经发布1.3的稳定版。
+[pytorch大版本更新的主要变动总结](pytorch-changelog.md)  当前版本 1.11
 
-已经全部测试完毕 代码可完全兼容1.3
+## 在线版本和PDF
+
+国内的镜像，速度很快，不会被墙：https://www.pytorch.wiki/
+
+PDF文件目前还没有找到好的生成方法，有熟悉这方面的朋友可以联系我，感激不尽
+
+## QQ 6群 
+
+群号：760443051
 
 
+![QR](PyTorch-Handbook-6.png) 
+
+点击链接加入群聊【PyTorch Handbook 交流6群】：https://jq.qq.com/?_wv=1027&k=X4Ro6uWv
 
 
-
-## QQ 3群 
-
-群号：773681699
-
-
-扫描二维码
-
-![QR](Pytorch-Handbook-3.png) 
-
-[点击链接加入群聊 『PyTorch Handbook 交流3群』](//shang.qq.com/wpa/qunwpa?idkey=ee402d5f0e7732b2171e643d729177ce55ac404eafda5edd9b740d73fabe6a96)
-
-1群(985896536)已满，2群(681980831)已满
+1群(985896536)已满，2群(681980831) 3群(773681699)已满  4群(884017356)已满  5群(894059877)已满
 
 不要再加了
+
+## 新福利
+
+公众账号每日分享干货文章
+![weixin QR](deephub.jpg) 
+
+
 
 ## 说明
 
@@ -114,10 +120,15 @@
 #### 第五节 多GPU并行训练
 [多GPU并行计算](chapter4/4.5-multiply-gpu-parallel-training.ipynb)
 
+#### 补充翻译文章：在PyTorch中使用DistributedDataParallel进行多GPU分布式模型训练
+[在PyTorch中使用DistributedDataParallel进行多GPU分布式模型训练](chapter4/distributeddataparallel)
+
+
 ### 第五章 应用
 #### 第一节 Kaggle介绍
 [Kaggle介绍](chapter5/5.1-kaggle.md)
 #### 第二节 结构化数据
+[Pytorch处理结构化数据](chapter5/5.2-Structured-Data.ipynb)
 #### 第三节 计算机视觉
 [Fashion MNIST 图像分类](chapter5/5.3-Fashion-MNIST.ipynb)
 #### 第四节 自然语言处理
@@ -125,13 +136,23 @@
 
 ### 第六章 资源
 
+[torchaudio](torchaudio/intro.ipynb)
+
 
 ### 第七章 附录
+
+[树莓派编译安装 pytorch 1.4](pi/)
+
 transforms的常用操作总结
 
 pytorch的损失函数总结
 
 pytorch的优化器总结
+
+
+## Script
+script目录是我写的将ipynb转换成在线的版本和pdf文件的脚本，因为还在测试阶段，所以有什么问题请大家提出
+
 
 ## License
 
